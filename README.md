@@ -14,8 +14,8 @@ jQuery plugin for bootstrap3
  - 4. 1.0.3  修改支持IE8，Array.indexOf() 改为 $.inArray()
  - 3. 1.0.2  增加基本表单与内联表单样式。
  - 2. 1.0.1  callback显示提示的信息。 2013-10-5
- - 1. 1.0.0  创建文件 
-  
+ - 1. 1.0.0  创建文件
+
 
 ##功能参数
 ```
@@ -25,12 +25,12 @@ jQuery plugin for bootstrap3
     date 日期格式 xxxx-xx-xx
     mail 邮箱
     number 数字，可以整型，浮点型。
-    char 
+    char
     chinese 中文
- mail-message="扩展提示内容" ， 可以扩展data-message,url-message  
+ mail-message="扩展提示内容" ， 可以扩展data-message,url-message
  mixlength="6" 表示长度大于等于6
  range="2.1~3"   表示值在[2.1~3]之间，并check-type="number"
- range="2.1,2,4,5"   表示值在只能填现数字，并check-type="number" 
+ range="2.1,2,4,5"   表示值在只能填现数字，并check-type="number"
 
 
  例如:
@@ -94,14 +94,14 @@ jQuery plugin for bootstrap3
         <div class="col-sm-6">
           <input type="password" class="form-control" id="pw2" check-type="required" minlength="6">
         </div>
-      </div>  
+      </div>
 
       <div class="form-group">
         <label for="vercode" class="col-sm-2 control-label">验证码</label>
         <div class="col-sm-6">
           <input type="text" class="form-control" id="vercode" check-type="number" range="2.2,5">
         </div>
-      </div>  
+      </div>
 
       <div class="form-group">
         <div class="col-sm-offset-2 col-sm-10">
